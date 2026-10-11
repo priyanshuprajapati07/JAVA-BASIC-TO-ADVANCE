@@ -83,5 +83,6 @@ public class Primitive {
          int result = n%10;
          System.out.println(result);
          */
+        
     }
 }
