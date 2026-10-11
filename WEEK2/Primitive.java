@@ -34,6 +34,28 @@ public class Primitive {
         //  they are the use to constant a variable use beacuse the code maintain and clean 
         //  further programming programmer cannot reassigined the value 
 
-        
+          // Variables and primitive data types
+        int age = 19;
+        double marks = 81.80;
+        char grade = 'A';
+        boolean passed = true;
+
+        // Reference type
+        String name = "Priyanshu";
+
+        // Constant variable
+        final int MAX_MARKS = 100;
+
+        // Display the values
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Marks: " + marks);
+        System.out.println("Grade: " + grade);
+        System.out.println("Passed: " + passed);
+        System.out.println("Maximum Marks: " + MAX_MARKS);
+
+        // Calculate percentage
+        double percentage = (marks / MAX_MARKS) * 100;
+        System.out.println("Percentage: " + percentage);
     }
 }
