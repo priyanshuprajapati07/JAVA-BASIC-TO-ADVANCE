@@ -30,11 +30,11 @@ public class Primitive {
         The literals here are 19, 99.50, 'A', true, and "Java".
          */
 
-         // final keyword
+        // final keyword
         //  they are the use to constant a variable use beacuse the code maintain and clean 
         //  further programming programmer cannot reassigined the value 
-
-          // Variables and primitive data types
+        // Variables and primitive data types
+        /*
         int age = 19;
         double marks = 81.80;
         char grade = 'A';
@@ -57,5 +57,31 @@ public class Primitive {
         // Calculate percentage
         double percentage = (marks / MAX_MARKS) * 100;
         System.out.println("Percentage: " + percentage);
+         */
+ /*
+        int a = 5;
+        int b = 2;
+        System.out.println(a / b);
+        System.out.println((double) a / b); // they print the output on decimal 
+
+        System.out.println(10 % 3);
+        System.out.println(15 % 5);
+        System.out.println(17 % 2);
+         */
+        // check even or odd
+        /*
+         int n = 7;
+         if(n%2==0){
+            System.out.println("Even");
+         }else{
+            System.out.println("Odd");
+         }
+         */
+        // to take last remainder
+        /*
+         int n = 546;
+         int result = n%10;
+         System.out.println(result);
+         */
     }
 }
