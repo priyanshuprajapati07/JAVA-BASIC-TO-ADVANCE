@@ -1,4 +1,7 @@
 
+import java.util.Scanner;
+
+
 public class example {
 
     public static void main(String[] args) {
@@ -67,7 +70,25 @@ Example: Display a menu at least once.
          }
          System.out.println("Happy Coding");
          */
+        // do while loop 
+        Scanner sc = new Scanner(System.in);
+        /*
+        int choice;
+        do{
+            System.out.println("1. Say Hello");
+            System.out.println("2. Exit");
+            System.out.print("Enter Your Choice :- ");
 
-         
+            choice = sc.nextInt();
+            if(choice == 1){
+                System.out.println("Hello");
+            }
+        }while(choice != 2);{
+            System.out.println("Program ended");
+            sc.close();
+        }
+             */
+
+             
     }
 }
