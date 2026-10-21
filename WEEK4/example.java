@@ -88,7 +88,6 @@ Example: Display a menu at least once.
             sc.close();
         }
              */
-
              
     }
 }

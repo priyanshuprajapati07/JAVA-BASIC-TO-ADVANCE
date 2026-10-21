@@ -18,6 +18,7 @@ public class example {
 
          */
         // Now we are take input from user.
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Size of array :- ");
         int n = sc.nextInt();
@@ -27,6 +28,29 @@ public class example {
             arr[i] = sc.nextInt();
         }
         sc.close();
+         */
+        // array
+        /*
+         int[] n= {1,2,3,4};
+         System.out.println(n[3]);
+ */
+// declare first and assign last
+/*
+int[] n ;
+n = new int[]{1,2,3,4,5,6};
+System.out.println(n[1]);
+ */
+// creatin an array with fixed size
+/*
+int[] num = new int[5];
+num[0] = 10;
+System.out.println(num[0]);
+ */
 
+ // print all element from an array
+ int[] num = {1,2,3,4,5,6};
+ for(int i = 0 ; i <= num.length-1; i++){
+        sout
+ }
     }
 }
